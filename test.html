@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dinosaur Game</title>
+    <style>
+        #game-container {
+            width: 800px;
+            height: 400px;
+            background-color: #f7f7f7;
+            border: 1px solid #ccc;
+            position: relative;
+        }
+        #dinosaur {
+            width: 50px;
+            height: 50px;
+            background-color: green;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+        }
+    </style>
+</head>
+<body>
+    <div id="game-container">
+        <div id="dinosaur"></div>
+    </div>
+
+    <script>
+        document.addEventListener('keydown', function(event) {
+            if (event.keyCode === 32) { // Spacebar key
+                // Jump logic here
+            }
+        });
+    </script>
+</body>
+</html>

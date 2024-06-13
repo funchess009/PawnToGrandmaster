@@ -7,9 +7,10 @@ body{
 #headerTitle{
     font-family:  sans-serif;
     font-size: large;
+
 }
 
-#menu {
+#menu, #headerTitle {
 
     padding: 5px;
     display: flex;
@@ -46,18 +47,19 @@ main{
 }
 
 footer{
-    background-color: rgb(224, 224, 224);
+    background-color: rgb(255, 229, 201);
     padding: 5px;
     display: flex;
     justify-content: space-around;
-    color: grey;
+    color: rgb(128, 128, 128);
 }
 
 .skill{
     margin: 20px;
     width: 160px;
     height: 160px;
-    position: relative
+    margin-top: 70vh;
+    position: fixed;
 
 }
 .outer{
@@ -68,9 +70,12 @@ footer{
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: rgb(255, 166, 0);
+
 }
 
 .inner{
+    background-color: white;
     height: 120px;
     width: 120px;
     box-shadow: inset 4px 4px 6px -1px rgba(0, 0, 0, 0.2), inset 4px 4px 6px -1px rgba(255, 255, 255, 0.7), inset 4px 4px 6px -1px rgb(0, 0, 0), inset 4px 4px 6px -1px rgba(255, 255, 255, 0.05);
@@ -84,4 +89,9 @@ footer{
     text-align: center;
     font-weight: 600;
     color: grey;
+}
+
+#logoImg img{
+
+    height: 50px;
 }
